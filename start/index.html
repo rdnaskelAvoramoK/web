@@ -2,6 +2,23 @@
 <head>
 	<meta charset="utf-8">
   <title>He seys, Poyekhali!</title>
+    <style>
+   .btn {
+    background: #5d8f76; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 7px 12px; /* Поля */
+    margin-bottom: 1em; /* Отступ снизу */
+   }
+   .btn:hover {
+    background: #1e6550; /* Цвет фона при наведении курсора */
+   }
+   .btn-flat {
+    border: 1px transparent; /* Прозрачная рамка */
+   }
+   .btn-round {
+    border-radius: 20px; /* Радиус скругления */
+   }
+  </style>
  </head>
 <body>
   <img src="pic1.jpeg">
@@ -11,13 +28,45 @@
   <p><input type="radio" name="answer" value="a1">Жучка и Каштанка<Br>
   <input type="radio" name="answer" value="a2">Муму и Барбос<Br>
   <input type="radio" name="answer" value="a3">Белка и Стрелка</p>
-  <p><input type="submit"></p>
- 	<p>Текст<input type="text"></p>
- 	<p>Email<input type="email"></p>
- 	<p>Пароль<input type="password"></p>
- 	<p>Число<input type="number"></p>
- 	<p>Телефон<input type="tel"></p>
+  <p><input type="button" value=" Нажми меня нежно "></p>
+ 	<p>Текст<input type="text"> </p>
+ 	<p>Email<input type="email"> </p>
+ 	<p>Пароль<input type="password"> </p>
+ 	<p>Число<input type="number"> </p>
+ 	<p>Телефон<input type="tel"> </p>
  	<p>Многострочный текст<textarea></textarea></p>
+ 	<label>Семейное положение</label>
+<label>
+  <input type="radio" name="status">
+  Холост
+</label>
+<label>
+  <input type="radio" name="status">
+  Женат
+</label>
+<label>
+  <input type="radio" name="status">
+  Разведён
+</label>
+<label>
+  <input type="radio" name="status">
+  Вдовец
+</label>
+<p><label>Какими браузерами вы пользуетесь?</label>
+<select multiple>
+  <option>Google Chrome</option>
+  <option>Internet Explorer</option>
+  <option>Mozilla Firefox</option>
+  <option>Opera</option>
+  <option>Safari</option>
+</select> </p>
+<p><input value="Введите текст"></p>
+   <p><input type="submit" value="Отправить">
+      <input type="reset" value="Очистить"></p>
+<p><input type="button" value="Исходная кнопка">
+      <input type="button" class="btn" value="Цветная кнопка">
+      <input type="button" class="btn btn-flat" value="Плоская кнопка">
+      <input type="button" class="btn btn-flat btn-round" value="Кнопка со скруглёнными уголками"></p>
  </form>
 
 </body>
